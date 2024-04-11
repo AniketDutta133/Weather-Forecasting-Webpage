@@ -1,0 +1,94 @@
+.App{
+  width: 607px;
+  height: 829px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 15px;
+  background-image: linear-gradient(180deg, #130754 0%, #3b2f80 100%);
+  align-items: center;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  padding-top: 60px;
+  
+}
+
+.inp{
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  font-weight: bold;
+  font-size: medium;
+  color: gray;
+  }
+.inp:focus{
+  border: 1px solid #000;
+
+}
+.icon{
+  width: 36px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40%;
+  background-color: #fff;
+}
+.icon:hover{
+  background-color: #000;
+  color: #fff;
+
+}
+
+.weather_image{
+  margin-top: 29px;
+  display: flex;
+  justify-content: center;
+}
+
+.temp{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 110px;
+  font-weight: 400px;
+}
+
+.weather_location{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 60px;
+  font-weight: 400px;
+
+}
+.datacontainer{
+  margin-top: 50px;
+  color: white ;
+  display: flex;
+  justify-content: center;
+}
+.element{
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.data{
+  font-size: 34px;
+  font-weight: 400;
+}
+.text{
+  font-size: 20px;
+  font-weight: 400;
+}
+.icon1{
+  margin-top: 10px;
+              
+}
